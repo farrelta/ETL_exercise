@@ -1,4 +1,5 @@
-Cara Menjalankan Program ETL:
+# Cara Menjalankan Program ETL
+
 disarankan untuk menggunakan virtual environment python, anda dapat mengaktifkannya dengan
 python3 -m  venv <nama virtual environment>
 
@@ -17,7 +18,8 @@ python3 -m pytest tests
 5. Menjalankan test coverage pada folder tests
 coverage run -m pytest tests
 
-Penjelasan File:
+# Penjelasan File
+
 - extract.py: Mengambil data dari website Fashion Studio (50 halaman).
 - transform.py: Membersihkan harga, rating, warna, dan menghapus duplikasi.
 - load.py: Menyimpan data bersih ke CSV.
